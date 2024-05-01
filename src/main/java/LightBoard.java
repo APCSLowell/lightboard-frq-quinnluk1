@@ -10,7 +10,7 @@ public class LightBoard
    */
   public LightBoard(int numRows, int numCols)
   {
-    lights = new boolean [numRows[numCols];
+    lights = new boolean [numRows][numCols];
     for(int r=0; r<numRows;r++){
       for(int c =0; c<numCols;c++){
         lights[r][c]=Math.Random()<0.4;
